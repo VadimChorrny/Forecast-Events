@@ -7,7 +7,7 @@ import telebot
 
 # сюда вводим токен
 
-bot = telebot.TeleBot('963264448:AAGVbz1rtI4F1rJnBOGq4ceo17yGoG7q5og')
+bot = telebot.TeleBot('тут має бути твій токен')
 
 # імпортую типи модуля щоб добавить кнопкі
 
