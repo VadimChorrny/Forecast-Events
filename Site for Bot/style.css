@@ -1,0 +1,239 @@
+root {
+    --white: #FFFFFF;
+    --black: #202020;
+    --gray: #4F4F4F;
+    --violet: #5528FF;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.page {
+    padding: 40px 0;
+    position: relative;
+    margin: 0;
+}
+
+.wrapper h2 {
+    position: absolute;
+    padding: 5px 15px;
+    top: -24px;
+
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #C2C2C2;
+    background-color: #FFFFFF;
+}
+
+.page-top {
+    border-top: 1px solid #c2c2c2;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1180px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+/* Header styles */
+
+.header {
+    padding-top: 50px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.header__menu li {
+    padding-right: 37px;
+    margin: 0;
+}
+
+.header__menu li:last-child {
+    padding-right: 0;
+}
+
+.header__menu li a {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    margin: 0;
+
+    color: var(--black);
+}
+
+.header__menu__button {
+    padding: 5px 14px;
+    background: #5528FF;
+    border-radius: 5px;
+}
+
+/* Hero section styles */
+
+.hero {
+    margin-top: 117px;
+    padding-bottom: 100px;
+}
+
+.hero__title {
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 65px;
+    margin: 0;
+    padding-bottom: 35px;
+
+    color: var(--black);
+}
+
+.hero__description {
+    width: 741px;
+    margin: 0;
+    padding-bottom: 70px;
+
+    font-size: 32px;
+    line-height: 51px;
+
+    color: var(--gray);
+}
+
+.hero__btn {
+    padding: 16px 58px;
+
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+
+    color: #FFFFFF;
+    background: #5528FF;
+    border-radius: 10px;
+}
+
+/* Services section styles */
+.services__container {
+    display: grid;
+    grid-template: 50% 50% / 50% 50%;
+}
+
+.services__item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 82px;
+}
+
+.services__item__image {
+    flex-basis: 120px;
+    text-align: center;
+}
+
+.services__item__text {
+    padding-left: 40px;
+}
+
+.services__item__text h3 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    margin: 0;
+    padding-bottom: 17px;
+    color: #000000;
+}
+
+.services__item__text p {
+    width: 292px;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+
+    color: #B2B2B2;
+}
+
+/* Clients section styles */
+.clients__container {
+    display: grid;
+    grid-template: 120px 120px 120px / repeat(4, 25%);
+    text-align: center;
+}
+
+/* Team section styles */
+.team__container {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat( 3, 33%);
+    grid-row-gap: 60px;
+    padding-bottom: 100px;
+}
+
+.team__item {
+    display: flex;
+    align-items: center;
+}
+
+.team__item__image {
+    padding-right: 35px;
+}
+
+.team__item__text h3 {
+    font-size: 28px;
+    line-height: 32px;
+    margin: 0;
+
+    color: #202020;
+}
+
+.team__item__text p {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+    padding-top: 11px;
+
+    color: #B2B2B2;
+}
+
+/* Footer styles */
+.footer {
+    background: #F7F7F7;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.footer__nav {
+    display: flex;
+    list-style-type: none;
+}
+
+.footer__nav  li {
+    padding-right: 40px;
+}
+
+.footer__nav  li:last-child {
+    padding-right: 0px;
+}
+
+.footer__nav li a {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: none;
+
+    color: #B2B2B2;
+}
